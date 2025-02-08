@@ -1,5 +1,7 @@
 package items;
 
+import items.type.Healing;
+
 public class Potion extends Healing {
     @Override
     public void action() {

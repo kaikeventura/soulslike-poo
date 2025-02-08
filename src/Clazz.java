@@ -1,7 +1,6 @@
-import items.Item;
+import items.base.Item;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public enum Clazz {
     WARRIOR {

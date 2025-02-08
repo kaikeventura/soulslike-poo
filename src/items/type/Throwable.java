@@ -1,6 +1,8 @@
-package items;
+package items.type;
 
-public class Healing extends Item {
+import items.base.Item;
+
+public class Throwable extends Item {
 
     @Override
     public boolean isInfinite() {
@@ -9,16 +11,16 @@ public class Healing extends Item {
 
     @Override
     public boolean isUsable() {
-        return true;
-    }
-
-    @Override
-    public boolean isDrop() {
         return false;
     }
 
     @Override
+    public boolean isDrop() {
+        return true;
+    }
+
+    @Override
     public void action() {
-        System.out.println("Cura");
+        System.out.println("Arremeça o item");
     }
 }

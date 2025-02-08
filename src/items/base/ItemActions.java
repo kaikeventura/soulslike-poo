@@ -1,4 +1,4 @@
-package items;
+package items.base;
 
 public interface ItemActions {
     boolean isInfinite();

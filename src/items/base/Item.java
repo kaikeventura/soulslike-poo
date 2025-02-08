@@ -1,4 +1,4 @@
-package items;
+package items.base;
 
 public abstract class Item implements ItemActions {
     public int quantity = 0;

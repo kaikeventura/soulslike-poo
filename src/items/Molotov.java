@@ -1,5 +1,7 @@
 package items;
 
+import items.type.Throwable;
+
 public class Molotov extends Throwable {
     @Override
     public void action() {

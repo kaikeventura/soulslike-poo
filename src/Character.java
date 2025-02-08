@@ -1,14 +1,16 @@
-import items.Item;
+import items.base.Item;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Character {
     private String name;
     private BodyType bodyType;
     private Clazz clazz;
+
     private AttributePoints attributePoints;
     private ArrayList<Item> allItems;
+
+    public Character() {}
 
     public Character(
             String name,
@@ -32,6 +34,22 @@ public class Character {
 
     public Clazz getClazz() {
         return clazz;
+    }
+
+    public ArrayList<Item> getAllItems() {
+        return allItems;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setBodyType(BodyType bodyType) {
+        this.bodyType = bodyType;
+    }
+
+    public void setClazz(Clazz clazz) {
+        this.clazz = clazz;
     }
 
     public void addItem(Item item) {
